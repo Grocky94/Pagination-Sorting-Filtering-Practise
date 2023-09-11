@@ -1,0 +1,78 @@
+#home-screen {
+    /* height: 100vh; */
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#home-top-bar {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+#home-search {
+    height: 5vh;
+    width: 25%;
+    border: 1px solid #000;
+
+}
+
+#home-search>form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+#home-search>form>:nth-child(1) {
+    height: 88%;
+    width: 80%;
+    outline: none;
+
+}
+
+#middile-area-inside-home-srceen {
+    height: 80vh;
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #A7A782;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+#home-bottom-bar {
+    height: 8vh;
+    width: 100%;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+}
+
+#page-no-align-btn {
+    height: 5vh;
+    width: 10%;
+    border: 1px solid #000;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home-event-divs {
+    height: 40vh;
+    width: 20%;
+    border: 1px solid #000;
+    margin: 2%;
+    background-image: url("https://img.freepik.com/free-photo/white-crinkled-paper-texture_53876-95917.jpg?w=360&t=st=1694371531~exp=1694372131~hmac=882989e499f8b727875dbfc151a95b5b667210bff78580feda9f13219314bf7c");
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+
+#home-event-divs>p {
+    font-size: 1.1em;
+    white-space: wrap;
+}
